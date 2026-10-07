@@ -23,7 +23,7 @@ Circle::Circle(double r = 1.0) : radius{r} {} // constructor with parameter
 int main()
 {
     Circle small_circle{};
-    // small_circle.setRadius(5.0); // Set the radius using the public member function
+    small_circle.setRadius(5.0); // Set the radius using the public member function
 
     print("Radius of the circle: {}\n", small_circle.getRadius()); // Get the radius using the public member function
 }
